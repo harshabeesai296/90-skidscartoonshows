@@ -1,0 +1,268 @@
+@font-face {
+  font-family: Aileron-Black;
+  font-weight: bold;
+  src: url("/Users/harshabeesai/Downloads/aileron_0102/Aileron-Black.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: Aileron-Regular;
+  font-weight: bold;
+  src: url("/Users/harshabeesai/Downloads/aileron_0102/Aileron-Regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: KungFuMasterSpacedItalic-K7vLW;
+  font-weight: bold;
+  src: url("/Users/harshabeesai/Downloads/kung-fu-master-font/KungFuMasterSpacedItalic-K7vLW.otf")
+    format("opentype");
+}
+
+body {
+  /*background: linear-gradient(#bdc3c7, #2c3e50);*/
+  background-image: url(bg_1.svg);
+}
+
+h1 {
+  text-align: center;
+  font-family: KungFuMasterSpacedItalic-K7vLW;
+  font-size: 75px;
+  color: #ff4500;
+}
+
+h3 {
+  text-align: center;
+  font-family: KungFuMasterSpacedItalic-K7vLW;
+  font-size: 35px;
+  color: #ff4500;
+}
+
+.anim1 {
+  height: 200px;
+  width: 200px;
+  background-color: #c33764;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 100px;
+  animation-name: hover;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin-bottom: 75px;
+  margin-top: 35px;
+}
+
+.anim2 {
+  height: 200px;
+  width: 200px;
+  background-color: #42275a;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 100px;
+  animation-name: hover;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin-bottom: 75px;
+}
+.anim3 {
+  height: 200px;
+  width: 200px;
+  background-color: #ffedbc;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 100px;
+  animation-name: hover;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin-bottom: 75px;
+}
+
+.anim4 {
+  height: 200px;
+  width: 200px;
+  background-color: #e29587;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 100px;
+  animation-name: hover;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin-bottom: 75px;
+}
+
+.anim5 {
+  height: 200px;
+  width: 200px;
+  background-color: #42275a;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 100px;
+  animation-name: hover;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin-bottom: 75px;
+}
+.anim6 {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 100px;
+  animation-name: hover;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin-bottom: 75px;
+}
+
+.anim7 {
+  height: 200px;
+  width: 200px;
+  background-color: #cc2b5e;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 100px;
+  animation-name: hover;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin-bottom: 75px;
+}
+
+.anim8 {
+  height: 200px;
+  width: 200px;
+  background-color: #a8e063;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 100px;
+  animation-name: hover;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin-bottom: 75px;
+}
+.anim9 {
+  height: 200px;
+  width: 200px;
+  background-color: #dc2430;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 100px;
+  animation-name: hover;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin-bottom: 75px;
+}
+
+/*@keyframes hover1 {
+  0% {
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+
+  10% {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  20% {
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+
+  30% {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  40% {
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+
+  50% {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  60% {
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+
+  70% {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  80% {
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+
+  90% {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  100% {
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+}*/
+
+/*@keyframes hover {
+  0% {
+    margin-left: 102px;
+  }
+
+  100% {
+    margin-left: 104px;
+  }
+}*/
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+img:hover {
+  height: 250px;
+  width: 250px;
+}
+
+.anim1:hover {
+  height: 250px;
+  width: 250px;
+}
+
+.anim2:hover {
+  height: 250px;
+  width: 250px;
+}
+.anim3:hover {
+  height: 250px;
+  width: 250px;
+}
+.anim4:hover {
+  height: 250px;
+  width: 250px;
+}
+.anim5:hover {
+  height: 250px;
+  width: 250px;
+}
+.anim6:hover {
+  height: 250px;
+  width: 250px;
+}
+.anim7:hover {
+  height: 250px;
+  width: 250px;
+}
+.anim8:hover {
+  height: 250px;
+  width: 250px;
+}
+.anim9:hover {
+  height: 250px;
+  width: 250px;
+}
