@@ -1,0 +1,106 @@
+@font-face {
+  font-family: Aileron-Black;
+  font-weight: bold;
+  src: url("/Users/harshabeesai/Downloads/aileron_0102/Aileron-Black.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: Aileron-Regular;
+  font-weight: bold;
+  src: url("/Users/harshabeesai/Downloads/aileron_0102/Aileron-Regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: KungFuMasterSpacedItalic-K7vLW;
+  font-weight: bold;
+  src: url("/Users/harshabeesai/Downloads/kung-fu-master-font/KungFuMasterSpacedItalic-K7vLW.otf")
+    format("opentype");
+}
+
+body {
+  background: linear-gradient(#dd5e89, #f7bb97);
+}
+
+h1 {
+  text-align: center;
+  font-family: KungFuMasterSpacedItalic-K7vLW;
+  font-size: 100px;
+}
+.anim1 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 100px;
+  animation-name: hover1;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+  margin-bottom: 75px;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+
+.anim2 {
+  height: 693px;
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 100px;
+  animation-name: hover2;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+  margin-bottom: 75px;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+.anim3 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 100px;
+  animation-name: hover3;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+  margin-bottom: 75px;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+}
+
+img:hover {
+  height: 250px;
+  width: 250px;
+}
+
+@keyframes hover1 {
+  100% {
+    margin-top: 50px;
+    margin-left: 500px;
+  }
+}
+
+@keyframes hover2 {
+  100% {
+    margin-top: 50px;
+    margin-left: 25px;
+  }
+}
+
+@keyframes hover3 {
+  100% {
+    margin-top: 50px;
+    margin-left: 25px;
+  }
+}
+.logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
